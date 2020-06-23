@@ -21,5 +21,10 @@ export default ({ element },plugin) => {
   }
 }
 export const wrapRootProvider = ({ element }, plugin) => {
-
+    const app = dva()
+    const store = app._store
+    let persistor = persistStore(store)
+    return <Provider store={store}>
+      {element}
+    </Provider>
 };

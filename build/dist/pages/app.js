@@ -11,7 +11,7 @@ import Header from "@/components/checkout/Header";
 import FooterScene from "@/components/checkout/FooterScene";
 import Footer from "@/components/checkout/Footer";
 import InputSelect from "../gatsby-theme-core/components/InputSelect";
-import InputSelect3 from "gatsby-theme-WOM-Magento/src/gatsby-theme-core/components/InputSelect";
+import InputSelect3 from "gatsby-theme-wom-magento/src/gatsby-theme-core/components/InputSelect";
 const App = (props) => {
     useEffect(() => {
         window.basePath = props.pageContext.basePath;

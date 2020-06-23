@@ -3,7 +3,7 @@ import axios from "axios";
 import InputItem from "./InputItem";
 import styled from "styled-components";
 import IconUbic from "@/images/icon_ubicacion.svg";
-import { InputSelect } from "gatsby-theme-WOM-Magento";
+import { InputSelect } from "gatsby-theme-wom-magento";
 import { connect } from "react-redux";
 import ItemOption from "./ItemOption";
 const FormAdress = styled.div `
@@ -87,7 +87,7 @@ const Step2Adress = (props) => {
                 } }))),
         (showparty === 0 || showparty === 1 || showparty === 2) && !!addressName && !!addressNumName && (React.createElement(React.Fragment, null,
             React.createElement(InputItem, Object.assign({}, props, { classAdd: "full-width", nameInput: addressName, iconInput: IconUbic, nameLabel: "Direcci\u00F3n", disabledFields: disabledFields, length: "50" })),
-            React.createElement(InputItem, Object.assign({}, props, { classAdd: "full-width", nameInput: addressNumName, 
+            React.createElement(InputItem, Object.assign({}, props, { classAdd: "full-width", nameInput: addressNumName,
                 // iconInput={IconUbic}
                 nameLabel: "Depto / oficina / otro", disabledFields: disabledFields, length: "50" }))))));
 };
