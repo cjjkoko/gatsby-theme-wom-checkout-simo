@@ -5,7 +5,7 @@ import InputSelectRegiones from "./InputSelectRegiones"
 import InputSelectComunas from "./InputSelectComunas"
 import styled from "styled-components"
 import IconUbic from "@/images/icon_ubicacion.svg"
-import { InputSelect } from "gatsby-theme-WOM-Magento"
+import { InputSelect } from "gatsby-theme-wom-magento"
 import { connect } from "react-redux"
 import ItemOption from "./ItemOption"
 
